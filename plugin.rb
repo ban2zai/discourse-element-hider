@@ -4,3 +4,5 @@
 # authors: calayx
 # url: https://github.com/ban2zai/discourse-element-hider
 
+enabled_site_setting :element_hider_enabled
+

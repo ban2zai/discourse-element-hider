@@ -1,4 +1,7 @@
 plugins:
+  element_hider_enabled:
+    default: true
+    client: true
   element_hider_selectors:
     default: ""
     type: list
