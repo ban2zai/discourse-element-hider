@@ -1,3 +1,4 @@
 en:
-  element_hider:
-    admin_title: "Element Hider"
+  js:
+    element_hider:
+      admin_title: "Element Hider"
