@@ -1,0 +1,11 @@
+# Служебные файлы Claude Code
+.claude/
+tmp_claude/
+CLAUDE.md
+
+# Зависимости
+node_modules/
+
+# Системное
+.DS_Store
+Thumbs.db

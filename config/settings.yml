@@ -1,0 +1,5 @@
+plugins:
+  element_hider_selectors:
+    default: ""
+    type: list
+    client: true
