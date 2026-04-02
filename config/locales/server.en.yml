@@ -1,0 +1,3 @@
+en:
+  site_settings:
+    element_hider_selectors: "CSS selectors to hide (one per line)"

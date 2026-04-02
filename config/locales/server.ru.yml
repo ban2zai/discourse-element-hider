@@ -1,0 +1,3 @@
+ru:
+  site_settings:
+    element_hider_selectors: "CSS-селекторы для скрытия элементов (каждый с новой строки)"
