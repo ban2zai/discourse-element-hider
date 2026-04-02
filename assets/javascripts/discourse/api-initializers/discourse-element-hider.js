@@ -6,7 +6,11 @@ export default apiInitializer((api) => {
 
   if (!rawSelectors || rawSelectors.length === 0) return;
 
-  const validSelectors = rawSelectors.map((s) => s.trim()).filter(Boolean);
+  // type:list возвращает строку с разделителем "|", а не массив
+  const validSelectors = String(rawSelectors)
+    .split("|")
+    .map((s) => s.trim())
+    .filter(Boolean);
   if (validSelectors.length === 0) return;
 
   const styleId = "_" + Math.random().toString(36).slice(2, 10);
